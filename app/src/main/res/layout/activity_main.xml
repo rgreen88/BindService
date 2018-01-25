@@ -15,7 +15,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="95dp"
-        android:text="@string/get_first_message" />
+        android:text="@string/get_first_message"
+        android:onClick="getFirstServiceMessage"/>
 
     <Button
         android:id="@+id/btn_get_second_message"
@@ -26,7 +27,8 @@
         android:layout_marginTop="36dp"
         android:gravity="start"
         android:text="@string/get_second_message"
-        android:textAlignment="viewStart" />
+        android:textAlignment="viewStart"
+        android:onClick="getSecondServiceMessage"/>
 
     <TextView
         android:id="@+id/tv_message"
@@ -35,6 +37,6 @@
         android:layout_below="@+id/btn_get_second_message"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="71dp"
-        android:text="@string/view_message_here"
+        android:text="@string/no_message_from_service"
         android:textSize="28sp" />
 </RelativeLayout>

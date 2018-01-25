@@ -3,4 +3,5 @@
     <string name="get_first_message">Get First Message</string>
     <string name="get_second_message">Get Second Message</string>
     <string name="view_message_here">View message here</string>
+    <string name="no_message_from_service">No message from service...</string>
 </resources>
